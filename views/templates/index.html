@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <p style="text-align:center;"><img src="https://ps.w.org/email-domain-validator-for-woocommerce/assets/icon-256x256.png?rev=2195083"></p>
+    <form method="post">
+        {% csrf_token %}
+        <div class="text-center mb-4">
+            <input type="email" name="email" id="email" class="form-control">
+        </div>
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Check</button>
+        <p class="mt-5 mb-3 text-muted text-center">© 2019 - Design by HomeScript</p>
+    </form>
+</div>
+
+
+{% endblock %}
