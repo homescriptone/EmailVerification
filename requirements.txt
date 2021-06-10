@@ -1,4 +1,4 @@
-Django==2.2.7
+Django==2.2.24
 django-rest==0.0.1
 dnspython==1.16.0
 pytz==2019.3
